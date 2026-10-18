@@ -1,0 +1,11 @@
+{
+  "name": "heartline-dating-agents",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "validate:demo": "node server.mjs --validate-demo",
+    "build": "node --check server.mjs && node --check src/main.js"
+  }
+}
